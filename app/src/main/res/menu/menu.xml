@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/op1"
+    android:title="Categoria 1 "
+    app:showAsAction="never"/>
+<item
+    android:id="@+id/op2"
+    android:title="Categoria 2 "
+    app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/op3"
+        android:title="Categoria 3 "
+        app:showAsAction="never"/>
+
+</menu>
