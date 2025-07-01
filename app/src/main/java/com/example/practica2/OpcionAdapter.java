@@ -37,7 +37,7 @@ public class OpcionAdapter extends RecyclerView.Adapter<OpcionAdapter.ViewHolder
             String mensaje = "";
             switch (opcion.getTitulo()) {
                 case "Consumo de Agua":
-                    mensaje = "Debes consumir mínimamente 3 litros de agua";
+                    mensaje = "Debes consumir mínimamente 3 litros de agua al día";
                     break;
                 case "Actividad Física":
                     mensaje = "Hoy debes hacer una caminata mínima de 10 minutos";

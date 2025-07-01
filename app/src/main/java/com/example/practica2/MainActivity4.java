@@ -1,38 +1,32 @@
 package com.example.practica2;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class DetalleActivivity extends AppCompatActivity {
-TextView detalleText;
+public class MainActivity4 extends AppCompatActivity {
+    TextView txtResultado;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_detalle_activivity);
+        setContentView(R.layout.activity_main4);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+                  });
+        txtResultado = findViewById(R.id.txtResultado);
 
-        });
-        detalleText = findViewById(R.id.textoDetalle);
-        String mensaje = getIntent().getStringExtra("mensaje");
-        detalleText.setText(mensaje);
+        String mensaje = getIntent().getStringExtra("mensajeAgua");
+        txtResultado.setText(mensaje);
 
-
-    }
-
-    public void inicio1(View view) {
-        Intent i= new Intent(DetalleActivivity.this, MainActivity2.class);
-        startActivity(i);
     }
 }
