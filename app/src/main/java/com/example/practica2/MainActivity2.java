@@ -84,5 +84,16 @@ public class MainActivity2 extends AppCompatActivity {
         Intent i= new Intent(MainActivity2.this, MainActivity3.class);
         startActivity(i);
     }
+
+
+    public void ira(View view) {
+        Intent i= new Intent(MainActivity2.this, MainActivity5.class);
+        startActivity(i);
+            }
+
+    public void irb(View view) {
+        Intent i= new Intent(MainActivity2.this, MainActivity7.class);
+        startActivity(i);
+    }
 }
 
