@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mitoolbar5"
+    android:layout_width="500dp"
+    android:layout_height="150dp"
+    android:background="#CE765A">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sueno1">
+    </ImageView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:text=" Horas de Sueño"
+        android:textColor="#DEE0C5"
+        android:textSize="20sp"/>
+
+</Toolbar>
