@@ -30,22 +30,21 @@
 
     <EditText
         android:id="@+id/edtEdad"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_width="135dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="56dp"
         android:hint="Edad (años)"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.402"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTitulo7" />
 
     <EditText
         android:id="@+id/edtHorasSemanales"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
         android:layout_marginTop="20dp"
-        android:hint="Horas de sueño"
+        android:hint="Ingrese Horas de sueño de la Semana"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.402"
@@ -60,7 +59,7 @@
         android:onClick="calcularSueno"
         android:text="Calcular"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edtHorasSemanales" />
 
